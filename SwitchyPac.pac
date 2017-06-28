@@ -16,4 +16,8 @@ function FindProxyForURL(url, host)
  {
   return "PROXY 188.166.21.143:80";
  }
+  else if (shExpMatch(host, "*yandex.com"))
+ {
+  return "PROXY 188.166.21.143:80";
+ }
 }
