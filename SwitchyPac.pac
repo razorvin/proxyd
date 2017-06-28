@@ -4,7 +4,7 @@ function FindProxyForURL(url, host)
  {
   return "DIRECT";
  }
- else if (shExpMatch(host, "*vk.co"))
+ else if (shExpMatch(host, ".co"))
  {
   return "PROXY 188.166.21.143:80";
  }
